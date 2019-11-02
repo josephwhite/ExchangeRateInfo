@@ -1,0 +1,80 @@
+@font-face {
+  font-family: "pressstart2p";
+  src: url("fonts/pressstart2p.tff");
+}
+
+body {
+  font-family: 'pressstart2p';
+  background-color: #c199c1;
+  background-size: cover;
+  opacity: 0.7;
+  font-size: 20px;
+
+}
+h1 {
+  text-align: center;
+  font-size: 30px;
+  font-family: 'pressstart2p';
+  background-color: #101010;
+  color: #279c00;
+  margin-top: -10px;
+  margin-left: -10px;
+  margin-right: -10px;
+  padding-top: 18px;
+  padding-bottom: 15px;
+}
+label {
+  font-size: 20px;
+  margin-left: 120px;
+  font-family: 'pressstart2p';
+}
+label:first-of-type {
+  margin-left: 60px;
+}
+input {
+  height: 25px;
+  width: 290px;
+  color: black
+}
+select {
+  width: 100px;
+  margin-left: 45px;
+}
+select:first-of-type {
+  margin-left: 20px;}
+
+button {
+  display: block;
+  width: 150px;
+  font-family: 'pressstart2p';
+  margin-top: 30px;
+  margin-left: 360px;
+}
+.box-1 {
+  font-weight: bold;
+  color: #279c00;
+  font-size: 50px;
+  font-family: 'pressstart2p';
+  margin-left: 45%;
+  margin-top: 15%
+}
+.box-2 {
+  font-size: 20px;
+  text-align: right;
+  margin-right: 2.5%;
+  margin-top:10%;
+  font-style:italic;
+  font-family: 'pressstart2p';
+  font-weight: lighter;
+}
+.example-8 .navbar-brand {
+  background: url(http://www.penskefile.com/static/PenskeUI/George_Cutout.png) center / contain no-repeat;
+  width: 200px;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  left: 50%;
+  background-color: #279c00;
+	font-size: 10px;
+	font-family: 'pressstart2p';
+  position: absolute;
+}

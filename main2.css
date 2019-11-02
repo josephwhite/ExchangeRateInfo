@@ -1,0 +1,141 @@
+@font-face {
+  font-family: "pressstart2p";
+  src: url("fonts/pressstart2p.tff");
+}
+
+.banana {
+  z-index: -50;
+  top: 0;
+  left: 0;
+  position:   absolute;
+  opacity: 0.7;
+  width: 100%;
+  height: 100%;
+  font-size: 10px;
+  font-family: 'pressstart2p';
+  object-fit: cover;
+}
+
+.button1 {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #279c00;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 10px;
+  font-family: 'pressstart2p';
+  padding: 10px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  top: 50%
+}
+
+.button1 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button1 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button1:hover span {
+  padding-right: 25px;
+}
+
+.button1:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #279c00;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 10px;
+  font-family: 'pressstart2p';
+  padding: 10px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  top: 50%
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.button4 {
+	position: fixed;
+	top: 10%;
+	right: 50%;
+	margin: auto;
+}
+
+.button3 {
+	position: fixed;
+	top: 10%;
+	left: 50%;
+	margin: auto;
+}
+
+.button5 {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin: auto;
+}
+
+.article {
+  poistion: fixed;
+  background-color: #c199c1;
+  margin-right: 150px;
+  margin-left: 80px;
+}
+
+.example-8 .navbar-brand {
+  background: url(http://www.penskefile.com/static/PenskeUI/George_Cutout.png) center / contain no-repeat;
+  width: 200px;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  left: 50%;
+  background-color: #279c00;
+	font-size: 10px;
+	font-family: 'pressstart2p';
+  position: absolute;
+}
